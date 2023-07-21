@@ -2,7 +2,7 @@
 
 ## Shell概述
 
-![shell概述](D:\Typora笔记\笔记\linux\picture\linux\Shell概述.png)
+![shell概述](https://github.com/hanyuya/MyLearn/blob/main/linux/picture/Shell%E6%A6%82%E8%BF%B0.png)
 
 ## Shell解析器
 
