@@ -10,7 +10,7 @@
 
 Linux系统中一切皆文件。
 ###  Linux目录结构
-![目录](https://github.com/hanyuya/MyLearn/blob/main/linux/picture/%E6%96%87%E4%BB%B6%E4%B8%8E%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%841.png)
+![目录](./picture/%E6%96%87%E4%BB%B6%E4%B8%8E%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%841.png)
 
 ![目录结构](D:\Typora笔记\笔记\linux\picture\linux\文件与目录结构2.png)
 
