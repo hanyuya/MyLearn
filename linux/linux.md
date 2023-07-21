@@ -107,27 +107,27 @@ VIM编辑器是从VI发展出来的一个性能更强大的文本编辑器。可
 
 1. 查看虚拟网络编辑器
 
-![查看虚拟网络编辑器](.\picture\linux\查看虚拟网络编辑器.png)
+![查看虚拟网络编辑器](./picture/%E6%9F%A5%E7%9C%8B%E8%99%9A%E6%8B%9F%E7%BD%91%E7%BB%9C%E7%BC%96%E8%BE%91%E5%99%A8.png)
 
 2. 修改ip地址
 
- ![修改ip地址](.\picture\linux\修改ip地址.png)
+ ![修改ip地址](./picture/%E4%BF%AE%E6%94%B9ip%E5%9C%B0%E5%9D%80.png)
 
 3. 查看网关
 
-![查看网关](.\picture\linux\查看网关.png)
+![查看网关](.picture/%E6%9F%A5%E7%9C%8B%E7%BD%91%E5%85%B3.png)
 
 4. 查看windows环境的中VMnet8网络配置，如图1-98所示
 
-![VMnet8](.\picture\linux\查看VMnet8.png)
+![VMnet8](./picture/%E6%9F%A5%E7%9C%8BVMnet8.png)
 
-![2](.\picture\linux\查看VMnet82.png)
+![2](./picture/%E6%9F%A5%E7%9C%8BVMnet82.png)
 
-![3](.\picture\linux\查看VMnet83.png)
+![3](./picture/%E6%9F%A5%E7%9C%8BVMnet83.png)
 
-![4](.\picture\linux\查看VMnet84.png)
+![4](./picture/%E6%9F%A5%E7%9C%8BVMnet84.png)
 
-![5](.\picture\linux\查看VMnet85.png)
+![5](./picture/%E6%9F%A5%E7%9C%8BVMnet85.png)
 
 ### 2 配置网络ip地址
 
@@ -169,7 +169,7 @@ VIM编辑器是从VI发展出来的一个性能更强大的文本编辑器。可
 [root@hadoop100 桌面]#vim /etc/sysconfig/network-scripts/ifcfg-eth0
 ```
 
-![修改ip](.\picture\linux\修改ip.png)
+![修改ip](./picture/%E4%BF%AE%E6%94%B9ip.png)
 
 以下标红的项必须修改，有值的按照下面的值修改，没有该项的要增加。
 
@@ -193,11 +193,11 @@ DNS2=8.8.8.8
 
 ​    修改后，如图1-100所示
 
-![修改配置文件](.\picture\linux\修改ip配置文件.png)
+![修改配置文件](./picture/%E4%BF%AE%E6%94%B9ip%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6.png)
 
 IP修改后
 
-![](.\picture\linux\IP修改后.png)
+![](./picture/IP%E4%BF%AE%E6%94%B9%E5%90%8E.png)
 
 `:wq` 保存退出
 
@@ -208,15 +208,15 @@ IP修改后
    ```
 
 
- ![重启网络](.\picture\linux\重启网络.png)
+ ![重启网络](./picture/%E9%87%8D%E5%90%AF%E7%BD%91%E7%BB%9C.png)
 
 3. 如果报错，reboot，重启虚拟机
 
 4. **使用ifconfig命令查看修改完成**
 
-![](.\picture\linux\使用ifconfig命令查看修改完成.png)
+![](./picture/%E4%BD%BF%E7%94%A8ifconfig%E5%91%BD%E4%BB%A4%E6%9F%A5%E7%9C%8B%E4%BF%AE%E6%94%B9%E5%AE%8C%E6%88%90.png)
 
-![](.\picture\linux\打开自动连接.png)
+![](./picture/%E6%89%93%E5%BC%80%E8%87%AA%E5%8A%A8%E8%BF%9E%E6%8E%A5.png)
 
 ### 3 配置主机名
 
@@ -438,7 +438,7 @@ HOSTNAME= hadoop100
 
 Linux进程运行级别
 
-![进程级别](.\picture\linux\linux进程运行级别.png)
+![进程级别](./picture/linux%E8%BF%9B%E7%A8%8B%E8%BF%90%E8%A1%8C%E7%BA%A7%E5%88%AB.png)
 
 #### 4.4 关闭防火墙
 
@@ -551,27 +551,27 @@ Linux进程运行级别
  1. 关闭要被克隆的虚拟机
 
  2. 找到克隆选项
-    ![克隆](D:\Typora笔记\笔记\linux\picture\linux\找到克隆选项.png)
+    ![克隆](./picture/%E6%89%BE%E5%88%B0%E5%85%8B%E9%9A%86%E9%80%89%E9%A1%B9.png)
 
  3. 欢迎页面
 
- ![欢迎向导](D:\Typora笔记\笔记\linux\picture\linux\欢迎页面.png)
+ ![欢迎向导](https://github.com/hanyuya/MyLearn/blob/main/linux/picture/%E6%AC%A2%E8%BF%8E%E9%A1%B5%E9%9D%A2.png)
 
  4. 克隆虚拟机
 
-  ![克隆](D:\Typora笔记\笔记\linux\picture\linux\克隆虚拟机.png)
+  ![克隆](https://github.com/hanyuya/MyLearn/blob/main/linux/picture/%E5%85%8B%E9%9A%86%E8%99%9A%E6%8B%9F%E6%9C%BA.png)
 
  5. 设置创建完整克隆
 
-  ![设置创建完整克隆](D:\Typora笔记\笔记\linux\picture\linux\设置创建完整克隆.png)
+  ![设置创建完整克隆](https://github.com/hanyuya/MyLearn/blob/main/linux/picture/%E8%AE%BE%E7%BD%AE%E5%88%9B%E5%BB%BA%E5%AE%8C%E6%95%B4%E5%85%8B%E9%9A%86.png)
 
  6. 设置克隆的虚拟机名称和存储位置
 
-  ![设置克隆的虚拟机名称和存储位置](D:\Typora笔记\笔记\linux\picture\linux\设置克隆的虚拟机名称和存储位置.png)
+  ![设置克隆的虚拟机名称和存储位置](https://github.com/hanyuya/MyLearn/blob/main/linux/picture/%E8%AE%BE%E7%BD%AE%E5%85%8B%E9%9A%86%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%90%8D%E7%A7%B0%E5%92%8C%E5%AD%98%E5%82%A8%E4%BD%8D%E7%BD%AE.png)
 
  7. 等待完成后关闭窗口，完成克隆
 
-  ![完成](D:\Typora笔记\笔记\linux\picture\linux\等待完成后关闭窗口完成克隆.png)
+  ![完成](https://github.com/hanyuya/MyLearn/blob/main/linux/picture/%E7%AD%89%E5%BE%85%E5%AE%8C%E6%88%90%E5%90%8E%E5%85%B3%E9%97%AD%E7%AA%97%E5%8F%A3%E5%AE%8C%E6%88%90%E5%85%8B%E9%9A%86.png)
 
  8. 修改克隆后虚拟机的ip
 
@@ -579,7 +579,7 @@ Linux进程运行级别
 [root@hadoop101 /]#vim /etc/udev/rules.d/70-persistent-net.rules
 ```
 进入如下页面，删除eth0该行；将eth1修改为eth0，同时复制物理ip地址。
-![修改ip](D:\Typora笔记\笔记\linux\picture\linux\修改克隆后虚拟机的ip.png)
+![修改ip](https://github.com/hanyuya/MyLearn/blob/main/linux/picture/%E4%BF%AE%E6%94%B9%E5%85%8B%E9%9A%86%E5%90%8E%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%9A%84ip.png)
 
  9. 修改IP地址
 
@@ -1975,7 +1975,7 @@ Linux系统是一种典型的多用户系统，不同的用户处于不同的地
 
 1. 从左到右的10个字符表示，如图所示：
 
-![图1-154 文件属性](D:\Typora笔记\笔记\linux\picture\linux\文件属性.png)
+![图1-154 文件属性](https://github.com/hanyuya/MyLearn/blob/main/linux/picture/%E6%96%87%E4%BB%B6%E5%B1%9E%E6%80%A7.png)
 
 如果没有权限，就会出现减号[ `-` ]而已。从左至右用0-9这些数字来表示:
 
@@ -2020,7 +2020,7 @@ lrwxrwxrwx. 1 root root    20 1月  12 14:32 houzi -> xiyou/dssz/houge.tx
 
 文件基本属性介绍，如图所示：
 
-![图1-155 文件基本属性介绍](D:\Typora笔记\笔记\linux\picture\linux\文件基本属性介绍.png)
+![图1-155 文件基本属性介绍](https://github.com/hanyuya/MyLearn/blob/main/linux/picture/%E6%96%87%E4%BB%B6%E5%9F%BA%E6%9C%AC%E5%B1%9E%E6%80%A7%E4%BB%8B%E7%BB%8D.png)
 
 （1）如果查看到是文件：链接数指的是硬链接个数。创建硬链接方法
 
@@ -2047,7 +2047,7 @@ drwxr-xr-x.  2 root root 4096 1月  12 14:04 mingjie
 
 如图所示
 
-![图1-156 基本语法](D:\Typora笔记\笔记\linux\picture\linux\权限.png)
+![图1-156 基本语法](https://github.com/hanyuya/MyLearn/blob/main/linux/picture/%E6%9D%83%E9%99%90.png)
 
 - **第一种方式变更权限**
   `chmod  [{ugoa}{+-=}{rwx}] 文件或目录`
@@ -2573,7 +2573,7 @@ Partition 1 does not end on cylinder boundary.
 
 1. 挂载前准备（必须要有光盘或者已经连接镜像文件）
 
-  ![挂载前准备](D:\Typora笔记\笔记\linux\picture\linux\挂载前准备.png)
+  ![挂载前准备](https://github.com/hanyuya/MyLearn/blob/main/linux/picture/%E6%8C%82%E8%BD%BD%E5%89%8D%E5%87%86%E5%A4%87.png)
 
 2. 基本语法
 
@@ -2631,7 +2631,7 @@ dr-xr-xr-x. 2 root root   4096 5月  23 2016 repodata
 ```
 添加红框中内容，保存退出,重启即可生效。
 
-![在这里插入图片描述](D:\Typora笔记\笔记\linux\picture\linux\开机自动挂载.png)
+![在这里插入图片描述](https://github.com/hanyuya/MyLearn/blob/main/linux/picture/%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8C%82%E8%BD%BD.png)
 
 ### 进程线程类
 进程是正在执行的一个程序或命令，每一个进程都是一个运行的实体，都有自己的地址空间，并占用一定的系统资源。
@@ -3105,9 +3105,9 @@ deplist|显示yum软件包的所有依赖关系
   （2）在Linux环境中访问该网络地址：http://mirrors.163.com/.help/centos.html，在使用说明中点击CentOS6->再点击保存
 
 
-![保存](D:\Typora笔记\笔记\linux\picture\linux\修改网络YUM源1.png)
+![保存]https://github.com/hanyuya/MyLearn/blob/main/linux/picture/%E4%BF%AE%E6%94%B9%E7%BD%91%E7%BB%9CYUM%E6%BA%901.png)
 
-![在终端打开](D:\Typora笔记\笔记\linux\picture\linux\修改网络YUM源2.png)
+![在终端打开](https://github.com/hanyuya/MyLearn/blob/main/linux/picture/%E4%BF%AE%E6%94%B9%E7%BD%91%E7%BB%9CYUM%E6%BA%902.png)
 
 2. 替换本地yum文件(在终端中执行）
 
