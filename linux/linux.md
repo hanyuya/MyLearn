@@ -10,7 +10,7 @@
 
 Linux系统中一切皆文件。
 ###  Linux目录结构
-![目录](.\picture\linux\文件与目录结构1.png)
+![目录](.\picture\文件与目录结构1.png)
 
 ![目录结构](D:\Typora笔记\笔记\linux\picture\linux\文件与目录结构2.png)
 
