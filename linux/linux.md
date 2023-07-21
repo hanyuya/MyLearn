@@ -12,17 +12,17 @@ Linux系统中一切皆文件。
 ###  Linux目录结构
 ![目录](./picture/%E6%96%87%E4%BB%B6%E4%B8%8E%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%841.png)
 
-![目录结构](D:\Typora笔记\笔记\linux\picture\linux\文件与目录结构2.png)
+![目录结构](./picture/%E6%96%87%E4%BB%B6%E4%B8%8E%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%842.png)
 
-![目录结构1](D:\Typora笔记\笔记\linux\picture\linux\文件与目录结构3.png)
+![目录结构1](./picture/%E6%96%87%E4%BB%B6%E4%B8%8E%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%843.png)
 
-![目录结构2](D:\Typora笔记\笔记\linux\picture\linux\文件与目录结构4.png)
+![目录结构2](./picture/%E6%96%87%E4%BB%B6%E4%B8%8E%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%844.png)
 
-![目录结构3](D:\Typora笔记\笔记\linux\picture\linux\文件与目录结构5.png)
+![目录结构3](./picture/%E6%96%87%E4%BB%B6%E4%B8%8E%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%845.png)
 
-![目录结构4](D:\Typora笔记\笔记\linux\picture\linux\文件与目录结构6.png)
+![目录结构4](./picture/%E6%96%87%E4%BB%B6%E4%B8%8E%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%846.png)
 
-![目录结构5](D:\Typora笔记\笔记\linux\picture\linux\文件与目录结构7.png)
+![目录结构5](./picture/%E6%96%87%E4%BB%B6%E4%B8%8E%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%847.png)
 
 ## VI/VIM编辑器
 
@@ -99,7 +99,7 @@ VIM编辑器是从VI发展出来的一个性能更强大的文本编辑器。可
 |:nohl|取消高亮|
 
 ### 三种模式之间的转换
-![在这里插入图片描述](D:\Typora笔记\笔记\linux\picture\linux\三种模式之间的转换.png)
+![在这里插入图片描述](./picture/%E4%B8%89%E7%A7%8D%E6%A8%A1%E5%BC%8F%E4%B9%8B%E9%97%B4%E7%9A%84%E8%BD%AC%E6%8D%A2.png)
 
 ## 网络配置和系统管理操作
 
