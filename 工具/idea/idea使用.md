@@ -85,7 +85,7 @@ input:test
 1. 在module下新建lib文件夹
 2. 将jar包复制到lib下
 3. 右键jar包选择"Add as Library.."即可
-4. jar包类型![jar包类型](.\picture\idea\create_library.jpg)
+4. jar包类型![jar包类型](./picture/idea/create_library.jpg)
 
 ## IDEA 整合 Tomcat 服务器
 
