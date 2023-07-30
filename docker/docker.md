@@ -246,7 +246,7 @@ Docker是怎么工作的？
 - Docker是一个Client-Server结构的系统，Docker的守护进程运行在主机上。通过Socket从客户端访问！
 - Docker-Server接收到Docker-Client的指令，就会执行这个命令！
 
-![](.\picture\docker底层原理.jpg)
+![]([./picture/docker%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86.jpg))
 
 为什么Docker比Vm快
 
@@ -260,7 +260,7 @@ Docker是怎么工作的？
    HostOS：物理机里的系统（OS）
    ```
 
-![](.\picture\docker与vm.png)
+![]([./picture/docker%E4%B8%8Evm.png))
 
 - 因此,当新建一个容器时,docker不需要和虚拟机一样重新加载一个操作系统内核。因而避免引导、加载操作系统内核返个比较费时费资源的过程,当新建一个虚拟机时,虚拟机软件需要加载GuestOS,返个新建过程是分钟级别的。而docker由于直接利用宿主机的操作系统,则省略了这个复杂的过程,因此新建一个docker容器只需要几秒钟。
 
