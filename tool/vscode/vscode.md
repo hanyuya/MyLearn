@@ -148,13 +148,13 @@ https://code.visualstudio.com/
 - 右下角弹出是否重启vs，点击“yes”
 - 有些机器重启后如果界面没有变化，则 点击 左边栏Manage -> Command Paletet...【Ctrl+Shift+p】
 - 在搜索框中输入“configure display language”，回车
-- 打开locale.json文件，修改文件下的属性 "locale":"zh-cn" 
+- 打开locale.json文件，修改文件下的属性 "locale":"zh-cn"
 
 ```json
 {
     // 定义 VS Code 的显示语言。
     // 请参阅 https://go.microsoft.com/fwlink/?LinkId=761051，了解支持的语言列表。
-    
+  
     "locale":"zh-cn" // 更改将在重新启动 VS Code 之后生效。
 }
 ```
@@ -210,7 +210,7 @@ vscode本身没有新建项目的选项，所以要先创建一个空的文件�
 **注意：制作代码片段的时候，字符串中如果包含文件中复制过来的“Tab”键的空格，要换成“空格键”的空格**
 
 ```json
-{l
+{
     "vue html": {
         "scope": "html",
         "prefix": "vuehtml",
@@ -246,3 +246,4 @@ vscode本身没有新建项目的选项，所以要先创建一个空的文件�
     }
 }
 ```
+

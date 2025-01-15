@@ -14,11 +14,9 @@ ctrl+Y     删除一行
 
 alt+shift+上下箭头	上下移动一行或多行快捷键
 
+ctrl + alt + <-：回到上一步
 
-
-ctrl + alt + <-：回到上一步 
-
-ctrl + alt + ->：回到下一步 
+ctrl + alt + ->：回到下一步
 
 ### 添加注释：
 
@@ -65,7 +63,7 @@ ctrl+alt+t：surround with 快速的添加包含，如：try/catch
 ### 快速代码：
 
 iter：遍历数组，回车
-abc.for 遍历数组，回车 
+abc.for 遍历数组，回车
 .sout（=system.out.println()）：自动的输出内容
 sout（=system.out.println()）
 psvm（=public static void main(String[] args){}）
@@ -110,51 +108,45 @@ File | Settings | Build, Execution, Deployment | Application Servers，配置你
 方式二：
 
 1. 可以打开项目结构菜单操作界面，添加一个自己的类库：
-
+   
    ![01](./picture/idea/add_library01.jpg)
-
 2. 添加你你类库需要的 jar 包文件。
-
+   
    ![02](./picture/idea/add_library02.jpg)
-
 3. 选择你添加的类库，给哪个模块使用：
-
+   
    ![03](./picture/idea/add_library03.jpg)
-
+   
    ![04](./picture/idea/add_library04.jpg)
-
 4. 选择 Artifacts 选项，将类库，添加到打包部署中：
-
+   
    ![05](./picture/idea/add_library05.jpg)
 
 ### d) 如何在 IDEA 中部署工程到 Tomcat 上运行
 
 1. 建议修改 web 工程对应的 Tomcat 运行实例名称：
-
+   
    ![name](./picture/idea/edit_tomcat-mame.jpg)
-
 2. 确认你的 Tomcat 实例中有你要部署运行的 web 工程模块：
-
+   
    ![edit](./picture/idea/config_tomcat_Dep.jpg)
-
 3. 你还可以修改你的 Tomcat 实例启动后默认的访问地址：
-
+   
    ![address](./picture/idea/tomcat_run_address.jpg)
-
-4. 在 IDEA 中如何运行，和停止 Tomcat 实例。 
-
+4. 在 IDEA 中如何运行，和停止 Tomcat 实例。
+   
    正常启动 Tomcat 实例：
-
+   
    Debug 方式启动 Tomcat 运行实例：
-
+   
    停止 Tomcat 运行实例：
-
+   
    <img src="./picture/idea/run_tomcat.jpg" style="zoom:80%;" />
-
+   
    重启 Tomcat 运行实例：
-
+   
    <img src="./picture/idea/restart_tomcat.jpg" alt="restart" style="zoom:80%;" />
-
+   
    <img src="./picture/idea/update_tomcat.jpg" style="zoom:80%;" />
 
 ### e) 修改工程访问路径
@@ -204,3 +196,4 @@ Debug 调试代码，首先需要两个元素：断点 + Debug 启动服务器
 其他常用调试相关按钮：
 
 ![](./picture/idea/%E5%85%B6%E4%BB%96%E8%B0%83%E8%AF%95%E6%8C%89%E9%92%AE.jpg)
+
